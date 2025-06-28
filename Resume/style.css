@@ -1,29 +1,106 @@
 /*Main Style*/
-
+/*styles for my resume*/
 body {
   font-family: 'Open Sans', arial, sans-serif;
-  font-size: 1em
-  color; #444;
+  font-size: 1em;
+  color: #444;
   font-weight: 400;
 }
+#container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
-h1 {
+/*Name*/
+#name {
     font-size: 3em;
-    text-transform: uppercase
+    text-transform: uppercase;
     text-align: center;
     color: #33485e;
+    border-bottom: 1px solid #33485e;
+    width: 60%;
+    min-width: 700px;
+    margin: 0 auto;
 }
-
-strong {
-    color:#33485e
+/*Title*/
+#title {
+    color:#33485e;
     text-transform: uppercase;
     font-size: size 1.5em;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 
 }
-
-h2 {
+/*Section Banners*/
+.sectionheader {
     font-size: 1.5em;
     text-transform: uppercase;
     background-color: #33485e;
-    color:#fff
+    color:#fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left:0px;
+    margin-right: 0px;
+    width: 70%;
+    min-width: 700px;
+}
+/*Job Titles*/
+.jobtitle {
+    font-size: 1.5em;
+    font-weight: 600;
+    
+}
+/*Job Organizations*/
+.organization {
+    font-size: 1.25em;
+    font-weight: 400;
+}
+/*Job Dates*/
+.date {
+    font-size: 1em;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/*Contact Information*/
+.menu {
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+}
+.menu li {
+    display: inline;
+}
+
+/*Education*/
+#degrees {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/*Skills*/
+#do {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/*Mission Statement*/
+#top {
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30 px;
 }
