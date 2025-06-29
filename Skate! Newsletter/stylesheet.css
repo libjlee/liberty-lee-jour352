@@ -1,8 +1,64 @@
 /*Main Style*/
 /*styles for Skate! newsletter*/
 
+h1 {
+    
+    font-family: 'Special Elite';
+}
+
 h2 {
     
     text-align: center;
-   
+    font-family: 'Special Elite';
+}
+
+h3 {
+    
+    text-align: center;
+    font-family: 'Special Elite';
+}
+
+p {
+    
+    text-align: center;
+    font-family: 'Special Elite';
+}
+
+i {
+    
+    font-size: 3em;
+}
+
+.navbar-brand {
+    
+    font-family: 'Special Elite';
+}
+
+.btn, .btn-dark, .btn-lg {
+  font-family: 'Special Elite';
+}
+
+
+.row {
+    
+    padding-bottom: 50px;
+}
+
+.img-limited {
+  width: 100%;
+  max-width: 500px;
+}
+
+.text-muted {
+  color: #ccc;
+}
+
+ @media only screen and (max-width: 500px) {
+h2 {
+    padding-top: 50px;   
+}
+.btn {
+    background-color: teal;
+    border-color: teal;
+  }
 }
