@@ -2,3 +2,35 @@
     margin: 0 auto;
     width: 900px;
 }
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: 200px;
+}
+
+#byline {
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+font-style: italic;
+}
+
+#dateline {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+p {
+    font-family: Georgia, serif;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+}
