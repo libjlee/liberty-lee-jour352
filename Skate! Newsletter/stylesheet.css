@@ -34,6 +34,11 @@ i {
     font-family: 'Special Elite';
 }
 
+.nav-link {
+    
+    font-family: 'Special Elite';
+}
+
 .btn, .btn-dark, .btn-lg {
   font-family: 'Special Elite';
 }
@@ -47,10 +52,13 @@ i {
 .img-limited {
   width: 100%;
   max-width: 500px;
+  height: auto;
+  display: block;
+  margin-bottom: 1rem;
 }
 
 .text-muted {
-  color: #ccc;
+  color: #ccc !important;
 }
 
  @media only screen and (max-width: 500px) {
