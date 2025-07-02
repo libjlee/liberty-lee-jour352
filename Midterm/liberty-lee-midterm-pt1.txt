@@ -1,0 +1,48 @@
+1.      
+<a href="https://www.google.com">Google</a> is the best search engine in the world.
+
+2.      
+A <div> tag is used to create divisions in html that can be identified by class or id. This is helpful when using CSS because it can create more sections than by using headings <h1>, <h2>, etc. and therefore allow countless <div> sections to have their own style.
+
+3. 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sample html</title>
+</head>
+
+<body>
+    Hello World!
+</body>
+</html>
+
+4.
+The two main areas of HTML are the head and the body. You would link the stylesheet in the head.
+
+5.
+Text, images, and DIV tags would be put in the body of the page, because they include the content that will appear on the site. 
+
+6.
+<div class="graphicbox"></div>
+<div id="name"></div>
+
+7.
+<div id="apples" class="fruit"></div>
+
+8.
+.fruit {
+    color: #000000;
+
+}
+
+9.
+<img src="img.jpeg" alt=image>
+
+10.
+Media queries are used in CSS to adapt the content of the page according to the device it is being viewed on. For example, a page built for the web needs to be able to change features such as layout, orientation, size or contrast to be able to be properly viewed on a phone.
+
+11.
+A serif font includes ornamental strokes on the end of the letters, while sans-serif fonts do not. Sans-serif fonts are typically easier to read, while serif fonts are more commonly used for stylistic purposes.
+
+12.
+#FFCC33 is an example of a hexidecimal code.
