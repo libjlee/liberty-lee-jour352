@@ -1,1 +1,41 @@
 /*Stylesheet for Midterm*/
+
+
+
+h1 {
+    font-size: 50px;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: 'GFS Didot', sans-serif;
+    font-weight: 100;
+    font-size: 25 px;
+}
+
+h3 {
+    font-family: 'GFS Didot', sans-serif;
+    font-size: 18px;
+    font-style: bold;
+}
+
+#byline {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 5px
+}
+
+#dateline {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+p {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+}
