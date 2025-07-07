@@ -1,9 +1,26 @@
 /*Stylesheet for Midterm*/
 
+.banner {
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.banner-image {
+    width: 60%;
+    height: auto;
+    display: block;
+}
+
+
 h1 {
     font-size: 50px;
     font-family: 'Bodoni Moda', serif;
     font-weight: 600;
+    margin-top: 20px;
 }
 
 h2 {
