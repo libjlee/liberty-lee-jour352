@@ -1,7 +1,5 @@
 /*Stylesheet for Midterm*/
 
-
-
 h1 {
     font-size: 50px;
     font-family: 'Bodoni Moda', serif;
@@ -33,9 +31,44 @@ h3 {
     font-weight: 100;
 }
 
+.main-image {
+    width: 95%;
+    max-width: 1600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 8em;
+}
 p {
     font-family: 'Helvetica', 'Arial', sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 1.5;
+}
+
+#sza-quote {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 20px;;
+}
+
+#read-more {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.body-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    margin-top: 2em;
 }
