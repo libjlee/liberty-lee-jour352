@@ -5,17 +5,19 @@ body {
     padding: 0;
 }
 
-container {
-    width: 100%;
+#content {
+    width: 85%;
     max-width: 1200px;
-    margin: 10px !important;
-    padding: 20px !important;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .banner {
     margin: 0;
     height: auto;
     width: 100%;
+    display: flex;
    
 }
 
@@ -27,16 +29,17 @@ container {
 
 
 h1 {
-    font-size: 50px;
+    font-size: 70px;
     font-family: 'Bodoni Moda', serif;
     font-weight: 600;
-    margin-top: 20px;
+    margin-top: 50px;
+    padding-top: 20px;
 }
 
 h2 {
     font-family: 'GFS Didot', sans-serif;
     font-weight: 100;
-    font-size: 25 px;
+    font-size: 25px;
 }
 
 h3 {
@@ -45,16 +48,30 @@ h3 {
     font-style: bold;
 }
 
+h4 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+h5 {
+    font-family: 'Bodoni Moda', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
 #byline {
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 100;
     margin-bottom: 5px
 }
 
 #dateline {
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 100;
 }
 
@@ -65,7 +82,7 @@ h3 {
     display: block;
     margin: 0 auto;
     margin-top: 2em;
-    margin-bottom: 8em;
+    margin-bottom: 3em;
 }
 p {
     font-family: 'Helvetica', 'Arial', sans-serif;
@@ -80,7 +97,7 @@ p {
     font-weight: 400;
     margin-top: 25px;
     margin-bottom: 25px;
-    padding-left: 20px;;
+    width: 100%;
 }
 
 #read-more {
@@ -90,6 +107,22 @@ p {
     margin-top: 20px;
 }
 
+.related-links {
+    font-family: 'Helvetica', sans-serif;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 0;
+}
+
+a {
+    color: inherit;
+    margin: auto;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+
 .body-image {
     width: 100%;
     max-width: 800px;
@@ -98,4 +131,14 @@ p {
     margin: 0 auto;
     margin-bottom: 2em;
     margin-top: 2em;
+}
+
+iframe {
+    width: 75%;
+    height: 500px;
+    border: none;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
 }
