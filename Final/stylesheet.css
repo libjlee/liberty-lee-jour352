@@ -1,0 +1,82 @@
+/* Top hat */
+.nav-logo {
+    color: #fff;
+    margin:0 auto;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Highlist color */
+.orange {
+    color: #ff6600;
+}
+
+/* Pull quote */
+
+.quote {
+    font-family: 'Oswald', sans-serif;
+    color:#ff6600;
+    font-size: 3em;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.quote-attribution {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Splash */
+
+.hero-container {
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.hero-image {
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+.hero-head{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.hero-sub {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 1.5em;
+}
+
+/* Media Queries */
+@media (max-width: 700px) {
+    p {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+
+}
