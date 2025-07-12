@@ -4,9 +4,6 @@ body {
     margin: 0 auto;
 }
 
-p {
-    margin-bottom: 1em;
-}
 
 /* Top hat */
 .nav-logo {
@@ -16,22 +13,28 @@ p {
     text-transform: uppercase;
 }
 
-/* Highlight color */
-.orange {
-    color: #ff6600;
-}
-
 /* Pull quote */
 
 .quote {
     font-family: 'Oswald', sans-serif;
-    color:#ff6600;
-    font-size: 3em;
-    font-weight: 700;
+    color:#000000;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 500;
     margin-top: 25px;
     margin-bottom: 25px;
     width: 100%;
 }
+
+/* Highlight color */
+.highlight {
+    color: #D25A3F;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: italic;
+    margin-left: 10%;
+}
+
 
 .quote-attribution {
     font-family: 'Open Sans', sans-serif;
@@ -116,10 +119,13 @@ p {
 }
 
 /* Media Queries */
-@media (max-width: 700px) {
+
+/* Styles for small screens or mobile devices */
+@media (max-width: 576px) {
     p {
-        padding-left: 20px;
-        padding-right: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 0.9em;
     }
 
      .hero-head {
@@ -132,6 +138,27 @@ p {
 
     .hero-text {
         width: 90%;
+        padding: 10px;
+        top: 80%;
+    }
+}
+    /* Styles for tablets or medium-sized screens */
+    @media (min-width: 577px) and (max-width: 992px) {
+    p {
+        padding: 0 20px;
     }
 
+    .hero-head {
+        font-size: 2.5em;
+    }
+
+    .hero-sub {
+        font-size: 1.3em;
+    }
+
+    .hero-text {
+        width: 90%;
+        padding: 15px;
+        top: 80%;
+    }
 }
