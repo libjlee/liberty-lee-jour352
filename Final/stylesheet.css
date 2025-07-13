@@ -170,6 +170,8 @@ body {
 
      .hero-head {
         font-size: 1.8em;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .hero-sub {
