@@ -143,8 +143,12 @@ body {
 
 /* Media Queries */
 
-/* Styles for small screens or mobile devices */
-@media (max-width: 576px) {
+/* Styles for extra-small screens or mobile devices */
+@media (max-width: 768.9px) {
+    .container {
+        width: 0 auto;
+    }
+
     p {
         padding-left: 15px;
         padding-right: 15px;
@@ -165,8 +169,13 @@ body {
         top: 80%;
     }
 }
-    /* Styles for tablets or medium-sized screens */
-    @media (min-width: 577px) and (max-width: 992px) {
+    /* Styles for small-sized screens or tablets */
+    @media (min-width: 768px) and (max-width: 991.9px) {
+    .container {
+        width: 750px;
+    }
+
+    
     p {
         padding: 0 20px;
     }
@@ -185,5 +194,19 @@ body {
         width: 90%;
         padding: 15px;
         top: 80%;
+    }
+}
+
+/* Styles for medium-sized screens or desktops */
+    @media (min-width: 992px) and (max-width: 119.9px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Styles for large-sized screens or desktops */
+    @media (min-width: 1220px) {
+    .container {
+        width: 1170px;
     }
 }
