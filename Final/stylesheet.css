@@ -6,7 +6,7 @@
     text-align: left;
     color: white;
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 0;
 }
 
 .hero-image {
@@ -96,12 +96,46 @@ body {
 
 }
 
+.byline {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dateline {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 .img-fluid {
     max-width: 100%;
     height: auto;
     margin-top: 20px;
-    margin-bottom: 50px;
 
+}
+
+.img-att {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7em;
+    font-weight: 300;
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 7px;
+    list-style-type: none;
+}
+
+.caption {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 
 .chapter-headline {
@@ -112,13 +146,17 @@ body {
     margin-bottom: 20px;
 }
 
+.end-attribute {
+    font-size: .8em;
+}
+
 /* Pull quote */
 .quote {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color:#000000;
     text-align: left;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 300;
     margin-top: 25px;
     margin-bottom: 25px;
     width: 100%;
@@ -132,27 +170,70 @@ body {
     margin-bottom: 20px;
 }
 
-/* Highlight color */
 .highlight {
     color: #D25A3F;
+    font-family: 'Open Sans', sans-serif;
     font-size: 60px;
-    font-weight: 700;
+    font-weight: 800;
     font-style: italic;
     margin-left: 10%;
 }
 
 
 /* Grid */
+.container-fluid {
+    width: 100%;
+    background-color: #c6c6c6;
+}
+
 .container-overflow-hidden-text-center {
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
+
+}
+
+.chart {
+    background-color: #fff;
+    padding: 5%;
+    border-radius: 10px;
 }
 
 .list {
     text-align: justify;
     text-justify: inter-word;
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-top: 35%;
+
 }
 
+.list li {
+    margin-bottom: 3em;
+    
+}
+
+/* Timeline */
+.timeline-container {
+    width: 100%;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+
+/* Map */
+.map-container {
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    width: 70%;
+    height: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
 
 /* Media Queries */
 
@@ -221,7 +302,7 @@ body {
 /* Styles for medium-sized screens or desktops */
     @media (min-width: 992px) and (max-width: 119.9px) {
     .container {
-        width: auto
+        width: auto;
         max-width: 970px;
         padding-left: 20px;
         padding-right: 20px;
@@ -231,7 +312,7 @@ body {
 /* Styles for large-sized screens or desktops */
     @media (min-width: 1220px) {
     .container {
-        width: auto
+        width: auto;
         max-width: 1170px;
         padding-left: 20px;
         padding-right: 20px;
